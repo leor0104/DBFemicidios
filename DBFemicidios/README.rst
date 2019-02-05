@@ -22,7 +22,7 @@ Cuando este listo para agregar una imagen use el menú desplegable *Agregar
 elemento* (usted solo vera el menú *Agregar elemento* después de iniciar
 sesión):
 
-.. image:: DBFemicidios/DBFemicidios/img/Captura1.PNG
+.. img:: DBFemicidios/DBFemicidios/img/Captura1.PNG
   :alt:
   :align: center
 

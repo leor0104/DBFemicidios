@@ -1,0 +1,18 @@
+Grupo 6
+Integrantes: 
+- Jonathan Andres Rosero Soto
+- Luis Enrique Ortiz Rivera
+
+Base de Datos
+PERSONAS->		id, Nombre, Apellidos, Edad, Nacionalidad, Ocupacion
+VICTIMA->		idPersona, CausaDeMuerte, AgresiónPrevia, HoraDeMuerte, Dia, Mes, Año
+AGRESOR->		idPersona, EstadoDeCaso, SituacionDelAgresor, Sentencia
+FEMICIDIO->		NumFem, LugarDelFemicidio, IdProvincia, Circunstancia,  Testigos, TipoDeArma, Agresor, Victima, Relacion
+DEPARTAMENTO->		IdDepartamento, Departamento,  "México"
+PROVINCIAS->		idProvincias, Provincia, IdDepartamento
+NOTICIAS->		idNoticia, URL, Fecha, texto, autor
+PALABRASCLAVE->		idPalabra, Palabra
+PALABRANOTICIA->		idPalabra, idNoticia
+FEMICIDIONOTICIA->	idNoticia, NumFem
+CATEGORIA->		idCategoria, Categoria
+NOTICIACATEGORIA->	idCategoria, idNoticia

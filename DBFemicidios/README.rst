@@ -22,7 +22,7 @@ Cuando este listo para agregar una imagen use el menú desplegable *Agregar
 elemento* (usted solo vera el menú *Agregar elemento* después de iniciar
 sesión):
 
-.. image:: ../img/captura1.png
+.. image:: ..img/captura1.png
   :alt:
   :align: center
 

@@ -302,12 +302,11 @@ Si presenta un problema en la conexión mientras configura MongoDB por primera v
 A través de la interfaz de MongoDB Compass, se facilita la creación de una base de datos.
 1.  Se coloca el nombre de la base de datos y requiere al menos una coleccion, y dentro de esa colección se crearán los documentos.
 
-![Alt text](img/captura1.png?raw=true "Imagen1") 
 ![captura1](https://user-images.githubusercontent.com/27389055/52280390-cf4f7600-2929-11e9-910b-86c9b0df20e0.PNG)
 
 2. Luego en la colección "Femicidio" simplemente se crean e insertan los documentos dentro de la colección, cada documento contiene una serie de atributos, establecidos en el esquema. 
 
-![Alt text](img/captura2.png?raw=true "Imagen2")
+![captura2](https://user-images.githubusercontent.com/27389055/52280573-32d9a380-292a-11e9-96bc-15f2dfc4d69d.PNG)
 
 3. Los atributos como: 
 - victima
@@ -315,11 +314,11 @@ A través de la interfaz de MongoDB Compass, se facilita la creación de una bas
 
 Son objetos y dentro de ellos estan los siguientes atributos y el tipo de dato:
 
-![Alt text](img/captura3.png?raw=true "Imagen3")
+![captura3](https://user-images.githubusercontent.com/27389055/52280574-33723a00-292a-11e9-8fb4-3029612f145d.PNG)
 
 4. Por último en el atribtuto "noticias", se encuentra un arreglo de objetos de tipo "noticia", debido a que un femicidio puede tener una o varias noticias con diferentes datos.
 
-![Alt text](img/captura4.png?raw=true "Imagen4")
+![captura4](https://user-images.githubusercontent.com/27389055/52280575-33723a00-292a-11e9-94fd-5c88e0282647.PNG)
 
 ## Neo4j
 Las bases de datos orientadas a grafos (BDOG) ayudan a encontrar relaciones entre los datos y extraer su verdadero valor. Una de las más conocidas es Neo4j, un servicio implementado en Java.
@@ -341,13 +340,13 @@ MATCH (p:Persona), (v:Victima) WHERE p.id=1 AND v.idPersona=1 CREATE (p)-[d:Dato
 ```
 La relacion va del Nodo "p.Persona" hacia el Nodo "v.Victima"
 
-![Alt text](img/captura6.png?raw=true "Imagen6")
+![captura6](https://user-images.githubusercontent.com/27389055/52280577-340ad080-292a-11e9-91c9-47be3246f0ae.PNG)
 
 
 - Al crear todos los Nodos con sus relaciones, existe un Nodo en común por el que se conecta todo el grafo, es decir que uno o varios Nodos comparten un nodo Padre o al contrario un Nodo hijo.
 
-![Alt text](img/captura5.png?raw=true "Imagen5")
+![captura5](https://user-images.githubusercontent.com/27389055/52280576-33723a00-292a-11e9-9471-31691ec6de64.PNG)
 
 Una tupla de datos, se convierte en una cadena o unión de Nodos a través de lineas(realaciones). 
 
-![Alt text](img/captura7.png?raw=true "Imagen7")
+![captura7](https://user-images.githubusercontent.com/27389055/52280578-340ad080-292a-11e9-855f-2026734396fe.PNG)

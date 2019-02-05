@@ -301,9 +301,7 @@ Si presenta un problema en la conexión mientras configura MongoDB por primera v
 
 A través de la interfaz de MongoDB Compass, se facilita la creación de una base de datos.
 1.  Se coloca el nombre de la base de datos y requiere al menos una coleccion, y dentro de esa colección se crearán los documentos.
-.. image:: ..img/captura1.png
-  :alt:
-  :align: center
+
 ![Alt text](img/captura1.png?raw=true "Imagen1") 
 
 2. Luego en la colección "Femicidio" simplemente se crean e insertan los documentos dentro de la colección, cada documento contiene una serie de atributos, establecidos en el esquema. 

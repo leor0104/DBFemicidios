@@ -303,6 +303,7 @@ A través de la interfaz de MongoDB Compass, se facilita la creación de una bas
 1.  Se coloca el nombre de la base de datos y requiere al menos una coleccion, y dentro de esa colección se crearán los documentos.
 
 ![Alt text](img/captura1.png?raw=true "Imagen1") 
+![captura1](https://user-images.githubusercontent.com/27389055/52280390-cf4f7600-2929-11e9-910b-86c9b0df20e0.PNG)
 
 2. Luego en la colección "Femicidio" simplemente se crean e insertan los documentos dentro de la colección, cada documento contiene una serie de atributos, establecidos en el esquema. 
 
